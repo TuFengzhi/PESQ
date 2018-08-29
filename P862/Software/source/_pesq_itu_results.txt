@@ -1,0 +1,36 @@
+REFERENCE	 DEGRADED	 PESQMOS	 PESQMOS	 SUBJMOS	 COND	 SAMPLE_FREQ	 CRUDE_DELAY
+../Conform/or105.wav	 ../Conform/dg105.wav	 SQValue=2.237	 2.237	 0.000	 0	 8000	0.2760
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_20.wav	 SQValue=2.535	 2.535	 0.000	 0	 16000	-13.0840
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_20_08281753.wav	 SQValue=2.571	 2.571	 0.000	 0	 16000	-13.0560
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_20_2.wav	 SQValue=2.377	 2.377	 0.000	 0	 16000	-13.0720
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_20_3.wav	 SQValue=2.414	 2.414	 0.000	 0	 16000	-13.0720
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_15_0.wav	 SQValue=2.366	 2.366	 0.000	 0	 16000	-13.0720
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_15_1.wav	 SQValue=2.374	 2.374	 0.000	 0	 16000	-13.0640
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_15_2.wav	 SQValue=2.591	 2.591	 0.000	 0	 16000	-13.0560
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_15_3.wav	 SQValue=2.402	 2.402	 0.000	 0	 16000	-13.0720
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_10_0.wav	 SQValue=2.571	 2.571	 0.000	 0	 16000	-13.0640
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_10_1.wav	 SQValue=2.644	 2.644	 0.000	 0	 16000	-13.0640
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_10_2.wav	 SQValue=2.372	 2.372	 0.000	 0	 16000	-13.0560
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_10_3.wav	 SQValue=2.602	 2.602	 0.000	 0	 16000	-13.0720
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_5_0.wav	 SQValue=2.384	 2.384	 0.000	 0	 16000	-13.0640
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_5_1.wav	 SQValue=2.387	 2.387	 0.000	 0	 16000	-13.0640
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_5_2.wav	 SQValue=2.340	 2.340	 0.000	 0	 16000	-13.0560
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_5_3.wav	 SQValue=2.445	 2.445	 0.000	 0	 16000	-13.0560
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_0_0.wav	 SQValue=2.313	 2.313	 0.000	 0	 16000	-13.0640
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_0_1.wav	 SQValue=2.546	 2.546	 0.000	 0	 16000	-13.0640
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_0_2.wav	 SQValue=2.617	 2.617	 0.000	 0	 16000	-13.0760
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\speech_16000_0_3.wav	 SQValue=2.631	 2.631	 0.000	 0	 16000	-13.0560
+ ../../../../Denoise/KalmanFilter/experiment/Calvin.wav	 D:\Github\Denoise\KalmanFilter\experiment\Calvin.wav	 SQValue=4.500	 4.500	 0.000	 0	 16000	0.0000
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_0_0.wav	 SQValue=2.313	 2.313	 0.000	 0	 16000	-13.0640
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_0_84.wav	 SQValue=2.274	 2.274	 0.000	 0	 16000	-13.0520
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_0_85.wav	 SQValue=2.329	 2.329	 0.000	 0	 16000	-13.0640
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_5_85.wav	 SQValue=2.056	 2.056	 0.000	 0	 16000	-13.0560
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_5_84.wav	 SQValue=2.320	 2.320	 0.000	 0	 16000	-13.0560
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_5_0.wav	 SQValue=2.384	 2.384	 0.000	 0	 16000	-13.0640
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_10_84.wav	 SQValue=3.277	 3.277	 0.000	 0	 16000	-18.1840
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_10_85.wav	 SQValue=3.312	 3.312	 0.000	 0	 16000	-18.2080
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_15_84.wav	 SQValue=2.578	 2.578	 0.000	 0	 16000	-13.0640
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_15_85.wav	 SQValue=2.600	 2.600	 0.000	 0	 16000	-13.0640
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_20_84.wav	 SQValue=2.565	 2.565	 0.000	 0	 16000	-13.0840
+ D:\Github\Denoise\MMSESTSA\experiment\Calvin.wav	 D:\Github\Denoise\MMSESTSA\experiment\speech_16000_20_85.wav	 SQValue=2.619	 2.619	 0.000	 0	 16000	-13.0840
+ 

@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "./P862/Software/source/pesqmain.c",
+                "./P862/Software/source/pesqdsp.c",
+                "./P862/Software/source/pesqio.c",
+                "./P862/Software/source/pesqmod.c",
+                "./P862/Software/source/dsp.c",
+                "-o",
+                "./P862/Software/source/pesq.exe"
+            ],
+            "type": "shell",
+            "problemMatcher": []
+        }
+    ]
+}
