@@ -328,7 +328,8 @@ int main(int argc, const char *argv[])
 
     if (Error_Flag == 0)
     {
-        printf("\nPrediction : PESQ_MOS = %.3f\n", (double)err_info.pesq_mos);
+        // printf("\nPrediction : PESQ_MOS = %.3f\n", (double)err_info.pesq_mos);
+        printf("%.5f", (double)err_info.pesq_mos);
         return 0;
     }
     else
@@ -447,19 +448,23 @@ void pesq_measure(SIGNAL_INFO *ref_info, SIGNAL_INFO *deg_info,
 
     if ((*Error_Flag) == 0)
     {
-        printf("Reading reference file %s...", ref_info->path_name);
+        // printf("Reading reference file %s...", ref_info->path_name);
 
         load_src(Error_Flag, Error_Type, ref_info);
         if ((*Error_Flag) == 0)
-            printf("done.\n");
+        {
+            // printf("done.\n");
+        }
     }
     if ((*Error_Flag) == 0)
     {
-        printf("Reading degraded file %s...", deg_info->path_name);
+        // printf("Reading degraded file %s...", deg_info->path_name);
 
         load_src(Error_Flag, Error_Type, deg_info);
         if ((*Error_Flag) == 0)
-            printf("done.\n");
+        {
+            // printf("done.\n");
+        }
     }
 
     if (((ref_info->Nsamples - 2 * SEARCHBUFFER * Downsample < Fs / 4) ||
@@ -483,11 +488,11 @@ void pesq_measure(SIGNAL_INFO *ref_info, SIGNAL_INFO *deg_info,
         long i;
         FILE *resultsFile;
 
-        printf(" Level normalization...\n");
+        // printf(" Level normalization...\n");
         fix_power_level(ref_info, "reference", maxNsamples);
         fix_power_level(deg_info, "degraded", maxNsamples);
 
-        printf(" IRS filtering...\n");
+        // printf(" IRS filtering...\n");
         apply_filter(ref_info->data, ref_info->Nsamples, 26, standard_IRS_filter_dB);
         apply_filter(deg_info->data, deg_info->Nsamples, 26, standard_IRS_filter_dB);
 
@@ -506,7 +511,7 @@ void pesq_measure(SIGNAL_INFO *ref_info, SIGNAL_INFO *deg_info,
 
         input_filter(ref_info, deg_info, ftmp);
 
-        printf(" Variable delay compensation...\n");
+        // printf(" Variable delay compensation...\n");
         calc_VAD(ref_info);
         calc_VAD(deg_info);
 
@@ -568,7 +573,7 @@ void pesq_measure(SIGNAL_INFO *ref_info, SIGNAL_INFO *deg_info,
             }
         }
 
-        printf(" Acoustic model processing...\n");
+        // printf(" Acoustic model processing...\n");
         pesq_psychoacoustic_model(ref_info, deg_info, err_info, ftmp);
 
         safe_free(ref_info->data);
